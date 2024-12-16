@@ -6,10 +6,11 @@ function App() {
     <div className='bg-primary'>
       <Routes>
         {/* Đường dẫn chính / */}
-        <Route path={path.HOME} element={<Home />} />
+        <Route path={path.HOME} element={<Home />} >
 
-        {/* Đường dẫn đến /login */}
-        <Route path={path.LOGIN} element={<Login />} />
+          {/* Đường dẫn đến /login */}
+          <Route path={path.LOGIN} element={<Login />} />
+        </Route>
       </Routes>
     </div>
 
